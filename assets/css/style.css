@@ -1,0 +1,44 @@
+.header-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(250, 160, 127);
+}
+.header-container h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header-container p{
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+.card{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.res-con{
+    border: 1px solid #fff !important;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+.res-title{
+    padding-bottom: 25px;
+    margin-top: 15px;
+    border-bottom: 1px solide #fff;
+}
+#reservation-title{
+    color:#fff;
+    padding: 25px 25px 10px 25px;
+    border-bottom: 1px solid #fff;
+    
+}
+#button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

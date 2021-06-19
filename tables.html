@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materialize CSS -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <title>HotTable Home</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="row">
+            <div class="col s12">
+                <h1>Hot Restaurant</h1>
+                <p>We only have 5 tables! Book your seat before they all are gone!</p>
+                <p class="center-align">
+                <a href="reserve.html" class="waves-effect waves-light btn-small">Make Reservations</a>
+                <a href="home.html" class="waves-effect waves-light btn-small">Home</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="table-container">
+        <div class="row">
+            <div class="col s12 reservation-table">
+                <div class="card blue-grey darken-1">
+                    <h2 id="reservation-title">Reservation Table</h2>
+                    <div class="card-content white-text">
+                      <span class="card-title"></span>
+                      <div class='card-info'></div>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="waitlist-container">
+        <div class="row">
+            <div class="col s12 reservation-table">
+                <div class="card blue-grey darken-1">
+                    <h2 id="reservation-title">Wait List</h2>
+                    <div class="card-content white-text">
+                      <span class="card-title"></span>
+                      <div class='card-waitlist'></div>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+         <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/tables.js"></script>
+</body>
+
+</html>
